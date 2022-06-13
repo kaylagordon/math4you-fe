@@ -6,7 +6,7 @@ This application is **almost** complete! It is your job to add in the necessary 
 1. Clone down this repo and `cd` into the directory
 2. Run `npm i`
 3. Run `npm start`
-4. Clone down [the backend repo](https://github.com/turingschool-examples/math4you-api) and `cd` into that directory
+4. Clone down [the backend repo](https://github.com/kaylagordon/math4you-be) and `cd` into that directory
 5. Run `npm i`
 6. Run `node server.js`
 7. Spend some time reading through both codebases and clicking around the app (Note: There IS a bug in the app! This is what you are in charge of fixing!)
