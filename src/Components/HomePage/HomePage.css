@@ -1,0 +1,25 @@
+.HomePage {
+  background-color: #545454;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  height: 30vw;
+  margin: auto;
+  margin-top: 6vw;
+  box-shadow: 12px 12px #AABFE3;
+}
+
+.HomePage span {
+  color: #AABFE3;
+}
+
+.HomePage > h1 {
+  font-size: 4vw;
+}
+
+.HomePage > h2 {
+  font-size: 1.3vw;
+}

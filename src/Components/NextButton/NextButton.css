@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+}
+
+.NextButton {
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vw;
+  margin-left: -18vw;
+  animation: bounce 5s steps(2, end) 3s infinite both;
+}
+
+.NextButton > p {
+  font-size: 1.3vw;
+  margin: 0;
+}
+.NextButton > img {
+  width: 7vw;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  10% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  35% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+  42% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  53% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  63% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+  5%,
+  25%,
+  35%,
+  47% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+}

@@ -1,0 +1,51 @@
+.GameForm {
+  background-color: #545454;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  height: 30vw;
+  margin: auto;
+  margin-top: 6vw;
+  box-shadow: 12px 12px #AABFE3;
+}
+
+.GameForm div {
+  display: flex;
+  justify-content: center;
+}
+
+.GameForm button {
+  margin: 0 1vw;
+  width: 7vw;
+  padding: 1vw;
+  border-radius: 25px;
+  color: white;
+  background-color: #AABFE3;
+  border: none;
+  font-size: 2vw;
+  align-items: center;
+}
+
+.GameForm span {
+  color: #AABFE3;
+}
+
+.GameForm h1 {
+  font-size: 4vw;
+}
+
+.GameForm h2 {
+  font-size: 1.3vw;
+}
+
+.GameForm .selected {
+  background-color: white;
+  color: #545454;
+}
+
+.topic-container {
+  margin: 2vw;
+}

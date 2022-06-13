@@ -1,0 +1,34 @@
+/* @import '../../variables.scss'; */
+
+* {
+  font-family: 'ABeeZee', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+}
+
+main {
+  height: 100vw;
+  background-image: url('../../images/background-img.png');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  display: flex;
+}
+
+.game-board {
+  flex-direction: column;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+button,
+button:active {
+  outline: none;
+}

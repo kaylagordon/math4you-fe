@@ -1,0 +1,32 @@
+.EndPage {
+  background-color: #545454;
+  color: white;
+  text-align: center;
+  width: 55vw;
+  height: 30vw;
+  margin: auto;
+  margin-top: 6vw;
+  box-shadow: 12px 12px #AABFE3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EndPage div {
+  display: flex;
+}
+
+.EndPage span {
+  color: #AABFE3;
+}
+
+.EndPage h1 {
+  font-size: 4vw;
+}
+
+.EndPage h2,
+.EndPage p {
+  font-size: 2vw;
+  margin-top: 1.5vw;
+}
